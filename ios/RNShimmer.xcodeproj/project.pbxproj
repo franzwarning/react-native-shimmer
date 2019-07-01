@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		5D7E4C771C88C67400B72F0C /* RNShimmeringViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E4C761C88C67400B72F0C /* RNShimmeringViewManager.m */; };
 		5D7E4C7A1C88C68800B72F0C /* RNShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E4C791C88C68800B72F0C /* RNShimmeringView.m */; };
-		5D7E4C9A1C88D74F00B72F0C /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E4C941C88D74F00B72F0C /* FBShimmeringView.m */; };
-		5D7E4C9B1C88D74F00B72F0C /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E4C961C88D74F00B72F0C /* FBShimmeringLayer.m */; };
+		AFC0604322CA116700DD761A /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC0604122CA116700DD761A /* FBShimmeringLayer.m */; };
+		AFC0604422CA116700DD761A /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC0604222CA116700DD761A /* FBShimmeringView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,12 +31,12 @@
 		5D7E4C761C88C67400B72F0C /* RNShimmeringViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNShimmeringViewManager.m; sourceTree = "<group>"; };
 		5D7E4C781C88C68800B72F0C /* RNShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNShimmeringView.h; sourceTree = "<group>"; };
 		5D7E4C791C88C68800B72F0C /* RNShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNShimmeringView.m; sourceTree = "<group>"; };
-		5D7E4C921C88D74F00B72F0C /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
-		5D7E4C931C88D74F00B72F0C /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
-		5D7E4C941C88D74F00B72F0C /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
-		5D7E4C951C88D74F00B72F0C /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
-		5D7E4C961C88D74F00B72F0C /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
-		5D7E4C971C88D74F00B72F0C /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		AFC0603D22CA116700DD761A /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		AFC0603E22CA116700DD761A /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		AFC0603F22CA116700DD761A /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		AFC0604022CA116700DD761A /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		AFC0604122CA116700DD761A /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		AFC0604222CA116700DD761A /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,31 +81,22 @@
 		5D7E4C7B1C88CB0700B72F0C /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				5D7E4C991C88D74F00B72F0C /* FBShimmering */,
+				AFC0603C22CA116700DD761A /* FBShimmering */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
 		};
-		5D7E4C981C88D74F00B72F0C /* Supporting Files */ = {
+		AFC0603C22CA116700DD761A /* FBShimmering */ = {
 			isa = PBXGroup;
 			children = (
-				5D7E4C971C88D74F00B72F0C /* FBShimmering-Prefix.pch */,
+				AFC0603D22CA116700DD761A /* FBShimmering.h */,
+				AFC0603E22CA116700DD761A /* FBShimmeringLayer.h */,
+				AFC0603F22CA116700DD761A /* FBShimmering-Prefix.pch */,
+				AFC0604022CA116700DD761A /* FBShimmeringView.h */,
+				AFC0604122CA116700DD761A /* FBShimmeringLayer.m */,
+				AFC0604222CA116700DD761A /* FBShimmeringView.m */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5D7E4C991C88D74F00B72F0C /* FBShimmering */ = {
-			isa = PBXGroup;
-			children = (
-				5D7E4C921C88D74F00B72F0C /* FBShimmering.h */,
-				5D7E4C931C88D74F00B72F0C /* FBShimmeringView.h */,
-				5D7E4C941C88D74F00B72F0C /* FBShimmeringView.m */,
-				5D7E4C951C88D74F00B72F0C /* FBShimmeringLayer.h */,
-				5D7E4C961C88D74F00B72F0C /* FBShimmeringLayer.m */,
-				5D7E4C981C88D74F00B72F0C /* Supporting Files */,
-			);
-			name = FBShimmering;
-			path = Shimmer/FBShimmering;
+			path = FBShimmering;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +138,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 5D7E4C5F1C88C61600B72F0C;
@@ -165,8 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D7E4C771C88C67400B72F0C /* RNShimmeringViewManager.m in Sources */,
-				5D7E4C9A1C88D74F00B72F0C /* FBShimmeringView.m in Sources */,
-				5D7E4C9B1C88D74F00B72F0C /* FBShimmeringLayer.m in Sources */,
+				AFC0604422CA116700DD761A /* FBShimmeringView.m in Sources */,
+				AFC0604322CA116700DD761A /* FBShimmeringLayer.m in Sources */,
 				5D7E4C7A1C88C68800B72F0C /* RNShimmeringView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
